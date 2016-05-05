@@ -10,7 +10,7 @@ namespace TheTranslator
     {
         //can you see this?!?!? 
         // now see this
-
+        //now back to me
         private static double alpha = 0.5;
         public EvaluatorConnectivity(Extractor ex) : base(ex) { }
         public override string GetBestTranslation(List<TranslationOption> transO)

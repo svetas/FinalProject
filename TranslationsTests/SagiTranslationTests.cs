@@ -22,6 +22,11 @@ namespace TranslationsTests
             Assert.IsTrue(test.testLargeDataBase(@"C:\studies\project\DB\Big\17_new\Len10\Downloaded.he"));
         }
         [TestMethod]
+        public void TestTranslation()
+        {
+            Assert.IsTrue(test.testSentence("משעמם כאן"));
+        }
+        [TestMethod]
         public void SingleSimpleWords()
         {
             Assert.IsTrue(test.testSentence("משעמם כאן"));

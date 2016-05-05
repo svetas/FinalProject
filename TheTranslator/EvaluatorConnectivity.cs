@@ -8,6 +8,8 @@ namespace TheTranslator
 {
     class EvaluatorConnectivity : Evaluator
     {
+        //can you see this?!?!?
+
         private static double alpha = 0.5;
         public EvaluatorConnectivity(Extractor ex) : base(ex) { }
         public override string GetBestTranslation(List<TranslationOption> transO)
@@ -31,7 +33,7 @@ namespace TheTranslator
 
                     chunkPrevSplited = transSen.m_targetSenParts[i - 1].m_translation.Split(new string[] { " ", "," }, StringSplitOptions.RemoveEmptyEntries);
                     chunkCurrSplited = transSen.m_targetSenParts[i].m_translation.Split(new string[] { " ", "," }, StringSplitOptions.RemoveEmptyEntries);
-                    connectivity.Add(calconnectivityI(chunkPrevSplited, chunkCurrSplited));
+                    connectivity.Add(calconnectivityP(chunkPrevSplited, chunkCurrSplited));
 
 
 

@@ -8,7 +8,8 @@ namespace TheTranslator
 {
     class EvaluatorConnectivity : Evaluator
     {
-        //can you see this?!?!?
+        //can you see this?!?!? 
+        // now see this
 
         private static double alpha = 0.5;
         public EvaluatorConnectivity(Extractor ex) : base(ex) { }
